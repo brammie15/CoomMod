@@ -19,14 +19,26 @@ import java.util.Properties;
 
 public class CumCentrifugeTileEntity extends InventoryTile {
     public CumCentrifugeTileEntity(final TileEntityType<?> tileEntityType) {
-        super(tileEntityType);
+        super(tileEntityType,41);
     }
     public CumCentrifugeTileEntity(){
         this(TileEntityTileInit.CUM_CENTRIFUGE.get());
     }
 
+    public static int getMaxRunningTime() {
+        return 0;
+    }
+
 
     public void RightCLick(World world, BlockPos pos, PlayerEntity player){
 
+    }
+
+    public int getRunningTime() {
+        return 0;
+    }
+
+    public void setRunningTime(int value) {
+        //return 0;
     }
 }
