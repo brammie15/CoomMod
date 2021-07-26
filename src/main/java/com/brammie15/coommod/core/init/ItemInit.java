@@ -21,8 +21,8 @@ public class ItemInit {
     public static final RegistryObject<CumExtractorItem> CUM_EXTRACTOR = ITEMS.register("cum_extractor", () -> new CumExtractorItem(new Item.Properties().tab(CumMod.CUM_ITEMGROUP).stacksTo(1)));
     //used cum extractor
     public static final RegistryObject<CumExtractorItemUsed> CUM_EXTRACTOR_USED = ITEMS.register("cum_extractor_used", () -> new CumExtractorItemUsed(new Item.Properties().tab(CumMod.CUM_ITEMGROUP).stacksTo(1)));
-
-
+    //cum mineral
+    public static final RegistryObject<Item> MINERAL_CUM = ITEMS.register("mineral_cum", () -> new Item(new Item.Properties().tab(CumMod.CUM_ITEMGROUP)));
 
 
     //Block Items
