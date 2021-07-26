@@ -18,15 +18,18 @@ import net.minecraft.world.World;
 import java.util.Properties;
 
 public class CumCentrifugeTileEntity extends InventoryTile {
+    public int BurningTime = 0;
+
     public CumCentrifugeTileEntity(final TileEntityType<?> tileEntityType) {
         super(tileEntityType,41);
     }
+
     public CumCentrifugeTileEntity(){
         this(TileEntityTileInit.CUM_CENTRIFUGE.get());
     }
 
     public static int getMaxRunningTime() {
-        return 0;
+        return 120;
     }
 
 
@@ -35,10 +38,10 @@ public class CumCentrifugeTileEntity extends InventoryTile {
     }
 
     public int getRunningTime() {
-        return 0;
+        return BurningTime;
     }
 
     public void setRunningTime(int value) {
-        //return 0;
+        BurningTime = value;
     }
 }
