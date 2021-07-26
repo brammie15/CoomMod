@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#C#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wet_sponge"
+    },
+    "C": {
+      "item": "cum:cum_extractor_used"
+    }
+  },
+  "result": {
+    "item": "cum:cum_extractor",
+    "count": 1
+  }
+}

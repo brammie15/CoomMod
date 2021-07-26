@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cum:items/cum_extractor_base",
+    "layer1": "cum:items/cum_extractor_used"
+  }
+}

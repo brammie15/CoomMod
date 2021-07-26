@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cum:block/cum_centrifuge" }
+  }
+}
