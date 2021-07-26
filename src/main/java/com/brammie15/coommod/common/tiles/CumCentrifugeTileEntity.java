@@ -3,6 +3,7 @@ package com.brammie15.coommod.common.tiles;
 import com.brammie15.coommod.common.blocks.CumCentrifuge;
 import com.brammie15.coommod.core.init.ItemInit;
 import com.brammie15.coommod.core.init.TileEntityTileInit;
+import com.brammie15.coommod.core.util.InventoryTile;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.tileentity.ITickableTileEntity;
@@ -16,7 +17,7 @@ import net.minecraft.world.World;
 
 import java.util.Properties;
 
-public class CumCentrifugeTileEntity extends TileEntity {
+public class CumCentrifugeTileEntity extends InventoryTile {
     public CumCentrifugeTileEntity(final TileEntityType<?> tileEntityType) {
         super(tileEntityType);
     }
